@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+FRONTEND/node_modules/
+BACKEND/node_modules/
+
+# Environment
+.env
+BACKEND/.env
+
+# IDE / System
+.vscode/
+.DS_Store
+dist/
+build/
+*.log

@@ -16,7 +16,7 @@ dotenv.config({ path: "./.env" })
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:5173', // your React app
+    origin: ['http://localhost:5173', 'https://url-shortener-rho-rust.vercel.app'], // Local and Vercel
     credentials: true // 👈 this allows cookies to be sent
 }));
 
